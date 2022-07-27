@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="suite">
+<test name="test name">
+<groups>
+<run>
+<exclude name="odd">
+</exclude>
+</run>
+</groups>
+<classes>
+<class name="Testcase.TestNGgroupdemo"/>
+</classes>
+</test>
+</suite>
